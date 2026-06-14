@@ -60,7 +60,7 @@ would add cost with no meaningful accuracy gain on this task.
 |-----------|-------|---------------|
 | Learning rate | 2e-5 | Standard fine-tuning range for transformers; avoids catastrophic forgetting |
 | Epochs | 3 | Convergence observed within 3 epochs on 10K samples |
-| Batch size | 16 | Fits T4 GPU memory at max_length=256 |
+| Batch size | 16 | Fits T4 GPU memory at max_length= 128|
 | Weight decay | 0.01 | L2 regularization to reduce overfitting on small subset |
 | Eval strategy | Per epoch | Enables early stopping via best checkpoint selection |
 
